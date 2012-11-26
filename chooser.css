@@ -1,0 +1,57 @@
+html {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    background-color: #E6E6E6;
+}
+
+.container {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.container > input{
+  /*text-align:center;*/
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.btnAdd {
+    padding: 0.15em;
+    padding-bottom: 8px;
+    margin: inherit;
+    width: 25%;
+    font-family:inherit;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+}
+
+.btnChoice, .btnPick {
+    margin: inherit;
+    font-family: inherit;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    padding: 0.75em;
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.btnChoice {
+    background-color: #737373;
+    color: white;
+}
+
+.btnPick {
+    background-color: #000000;
+    color: white;
+}
+
+
+button:active {
+    background-color: #000000;
+}
+​

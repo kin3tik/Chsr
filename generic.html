@@ -1,0 +1,22 @@
+<HTML>
+    <HEAD>
+    	<link rel="apple-touch-icon-precomposed" href="dice.png"/>
+    	<meta name="viewport" content="width=320.1, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="chooser.css">
+        <script src="chooser_mini.js" type="text/javascript"></script>
+        <TITLE>Chooser</TITLE>
+    </HEAD>
+    
+    <BODY>
+        <div class="container">
+            <button class="btnPick" id="btnPick" onclick="pick()" ontouchstart="">Pick!</button>
+            
+            <input type="text" name="newItem" class="txtNewItem" id="newItem"
+            onkeydown="if (event.keyCode == 13) document.getElementById('btnAdd').click()"/>
+            <button class="btnAdd" id="btnAdd" onclick="addItem()">Add</button>
+        </div>
+   </BODY>
+</HTML>​
