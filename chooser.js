@@ -30,14 +30,18 @@ function pick() { //randomly pick from the selected items in `choice[]`
 function addItem() { //add a new item to the list to choose from
     //add new HTML element
     var name = document.getElementById('newItem').value;
-    if(name != '') {         
+    if(name != '') {  
+    	//insert new button code       
     	var element = document.getElementById('btnPick');
-    	var html = "<button class=\"btnChoice\" id=\"newchoice"+count+"5\" onclick=\"add(this,'"+name+"')\" ontouchstart=\"\">"+name+"</button>";
+    	var html = "<button class=\"btnChoice\" id=\"newchoice"+count+"\" onclick=\"add(this,'"+name+"')\" ontouchstart=\"\">"+name+"</button>";
     	element.insertAdjacentHTML('beforebegin', html);
-    	count++;
-    	//clear text field
+    	//clear input text field
     	var tf = document.getElementById('newItem');
     	tf.value = '';
+        //automatically select newly added item
+        add(document.getElementById('newchoice'+count), name);
+        //increment for next new item
+        count++;
     }
 };
             

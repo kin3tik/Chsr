@@ -3,7 +3,7 @@ Chsr
 
 ##About
 
-Generic web-app to choose an item from a list. Currently designed specifically for iOS(webkit) but
+Generic web-app to choose an item from a list. Currently designed specifically for iOS and iPhone (screen size) but
 will work on most browsers.
 
 ##Usage
