@@ -18,4 +18,5 @@ Live demo sites:
 ##To Do
 
 * Add more documentation
+* Sanitize input text
 * Adapt layout to screen size
